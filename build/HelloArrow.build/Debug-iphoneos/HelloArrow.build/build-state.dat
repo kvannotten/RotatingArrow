@@ -1,0 +1,627 @@
+THelloArrow
+v7
+r0
+t307717028.871648
+cCheck dependencies
+cCpResource build/Debug-iphoneos/HelloArrow.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos/HelloArrow.app/Info.plist HelloArrow-Info.plist
+cProcessPCH /var/folders/At/Atn+cvS+F2WcJiHCIDyF7U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloArrow_Prefix-avsavodbygmesvhbcczwhlzsmmep/HelloArrow_Prefix.pch.gch HelloArrow_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH++ /var/folders/At/Atn+cvS+F2WcJiHCIDyF7U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloArrow_Prefix-aoioccozppyhschlghzbuavbmhki/HelloArrow_Prefix.pch.gch HelloArrow_Prefix.pch normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+cProcessPCH++ /var/folders/At/Atn+cvS+F2WcJiHCIDyF7U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloArrow_Prefix-dhfhswgtudfyhwfifboxchbkwxnd/HelloArrow_Prefix.pch.gch HelloArrow_Prefix.pch normal armv6 c++ com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/At/Atn+cvS+F2WcJiHCIDyF7U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloArrow_Prefix-aadknwkjbgcqkycsqzatiwgfnoti/HelloArrow_Prefix.pch.gch HelloArrow_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH++ /var/folders/At/Atn+cvS+F2WcJiHCIDyF7U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloArrow_Prefix-fsbgxlxjatuitweqjzclhpkdsdok/HelloArrow_Prefix.pch.gch HelloArrow_Prefix.pch normal armv7 objective-c++ com.apple.compilers.gcc.4_2
+cProcessPCH++ /var/folders/At/Atn+cvS+F2WcJiHCIDyF7U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloArrow_Prefix-bjkrbboaciqglkaweqdgqqtkmimh/HelloArrow_Prefix.pch.gch HelloArrow_Prefix.pch normal armv7 c++ com.apple.compilers.gcc.4_2
+cCompileC build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv6/main.o /Users/kvannotten/Projects/HelloArrow/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv6/HelloArrowAppDelegate.o /Users/kvannotten/Projects/HelloArrow/Classes/HelloArrowAppDelegate.mm normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv6/GLView.o /Users/kvannotten/Projects/HelloArrow/Classes/GLView.mm normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv6/RenderingEngine1.o /Users/kvannotten/Projects/HelloArrow/Classes/RenderingEngine1.cpp normal armv6 c++ com.apple.compilers.gcc.4_2
+cCompileC build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv6/RenderingEngine2.o /Users/kvannotten/Projects/HelloArrow/Classes/RenderingEngine2.cpp normal armv6 c++ com.apple.compilers.gcc.4_2
+cCompileC build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv7/main.o /Users/kvannotten/Projects/HelloArrow/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv7/HelloArrowAppDelegate.o /Users/kvannotten/Projects/HelloArrow/Classes/HelloArrowAppDelegate.mm normal armv7 objective-c++ com.apple.compilers.gcc.4_2
+cLd /Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv6/HelloArrow normal armv6
+cCompileC build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv7/GLView.o /Users/kvannotten/Projects/HelloArrow/Classes/GLView.mm normal armv7 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv7/RenderingEngine1.o /Users/kvannotten/Projects/HelloArrow/Classes/RenderingEngine1.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
+cCompileC build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv7/RenderingEngine2.o /Users/kvannotten/Projects/HelloArrow/Classes/RenderingEngine2.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
+cLd /Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv7/HelloArrow normal armv7
+cCreateUniversalBinary /Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos/HelloArrow.app/HelloArrow normal "armv6 armv7"
+cGenerateDSYMFile /Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos/HelloArrow.app.dSYM /Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos/HelloArrow.app/HelloArrow
+cProcessProductPackaging "/Users/kvannotten/Library/MobileDevice/Provisioning Profiles/77458E26-1C6F-40BA-B448-E1F0285CD3A8.mobileprovision" /Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos/HelloArrow.app/embedded.mobileprovision
+cTouch /Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos/HelloArrow.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist /Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow.xcent
+cCodeSign /Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos/HelloArrow.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk
+c000000004C6DE9E30000000000000110
+t1282271715
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist
+c000000004C578FA900000000000001A7
+t1280806825
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
+c000000004C578FA900000000000001E5
+t1280806825
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004C5A51050000000000345F00
+t1280987397
+s3432192
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C5A52B100000000003E1EF0
+t1280987825
+s4071152
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C5A527F0000000000001466
+t1280987775
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h
+c000000004C5A5504000000000000094F
+t1280988420
+s2383
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGLDrawable.h
+c000000004C5A55040000000000000A61
+t1280988420
+s2657
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
+c000000004C5A55040000000000009369
+t1280988420
+s37737
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
+c000000004C5A55040000000000003C4A
+t1280988420
+s15434
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES2/gl.h
+c000000004C5A550400000000000092AA
+t1280988420
+s37546
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES2/glext.h
+c000000004C5A550400000000000026AA
+t1280988420
+s9898
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004C5A5516000000000002D690
+t1280988438
+s186000
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004C5A556300000000000000C4
+t1280988515
+s196
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004C5A56D600000000002573D0
+t1280988886
+s2454480
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C62427000000000000009CD
+t1281507952
+s2509
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C62430F0000000002EBC2B0
+t1281508111
+s49005232
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/mach/mach_time.h
+c000000004C5A4AB40000000000000746
+t1280985780
+s1862
+
+N/Users/kvannotten/Library/MobileDevice/Provisioning Profiles/77458E26-1C6F-40BA-B448-E1F0285CD3A8.mobileprovision
+c000000004C8F95FA0000000000001C4D
+t1284478458
+s7245
+
+N/Users/kvannotten/Projects/HelloArrow/Classes/GLView.h
+c000000004CA7070400000000000001CB
+t1286014724
+s459
+i"IRenderingEngine.hpp"
+i<OpenGLES/EAGL.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/kvannotten/Projects/HelloArrow/Classes/GLView.mm
+c000000004CA72A6C00000000000009C9
+t1286023788
+s2505
+i<OpenGLES/EAGLDrawable.h>
+i"GLView.h"
+i"mach/mach_time.h"
+i<OpenGLES/ES2/gl.h>
+
+N/Users/kvannotten/Projects/HelloArrow/Classes/HelloArrowAppDelegate.h
+c000000004CA6E688000000000000013F
+t1286006408
+s319
+i<UIKit/UIKit.h>
+i"GLView.h"
+
+N/Users/kvannotten/Projects/HelloArrow/Classes/HelloArrowAppDelegate.mm
+c000000004CA71CE400000000000002BF
+t1286020324
+s703
+i"HelloArrowAppDelegate.h"
+
+N/Users/kvannotten/Projects/HelloArrow/Classes/IRenderingEngine.hpp
+c000000004CA724D90000000000000374
+t1286022361
+s884
+
+N/Users/kvannotten/Projects/HelloArrow/Classes/RenderingEngine1.cpp
+c000000004CA719EE0000000000000DA7
+t1286019566
+s3495
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i"IRenderingEngine.hpp"
+
+N/Users/kvannotten/Projects/HelloArrow/Classes/RenderingEngine2.cpp
+c000000004CA72BE2000000000000178B
+t1286024162
+s6027
+i<OpenGLES/ES2/gl.h>
+i<OpenGLES/ES2/glext.h>
+i<cmath>
+i<iostream>
+i"IRenderingEngine.hpp"
+i"../Shaders/Simple.vert"
+i"../Shaders/Simple.frag"
+
+N/Users/kvannotten/Projects/HelloArrow/HelloArrow_Prefix.pch
+c000000004CA6E04A00000000000000BD
+t1286004810
+s189
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/kvannotten/Projects/HelloArrow/Shaders/Simple.frag
+c000000004CA723C2000000000000008D
+t1286022082
+s141
+
+N/Users/kvannotten/Projects/HelloArrow/Shaders/Simple.vert
+c000000004CA72358000000000000011B
+t1286021976
+s283
+
+N/Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos/HelloArrow.app
+t1286024228
+s306
+
+N/Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos/HelloArrow.app.dSYM
+t1286024228
+s102
+
+N/Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos/HelloArrow.app/HelloArrow
+t1286024228
+s75484
+
+N/Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos/HelloArrow.app/Info.plist
+t1286018813
+s734
+
+N/Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos/HelloArrow.app/PkgInfo
+t1286018813
+s8
+
+N/Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos/HelloArrow.app/ResourceRules.plist
+t1286018813
+s485
+
+N/Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos/HelloArrow.app/embedded.mobileprovision
+t1286018817
+s7245
+
+N/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow.xcent
+t1286018817
+s426
+
+N/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv6/GLView.o
+t1286024227
+s44804
+
+N/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv6/HelloArrow
+t1286024227
+s35352
+
+N/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv6/HelloArrow.LinkFileList
+c000000004CA72C220000000000000288
+t1286024226
+s648
+
+N/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv6/HelloArrowAppDelegate.o
+t1286024227
+s46308
+
+N/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv6/RenderingEngine1.o
+t1286024227
+s16104
+
+N/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv6/RenderingEngine2.o
+t1286024227
+s86780
+
+N/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv6/main.o
+t1286018816
+s6716
+
+N/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv7/GLView.o
+t1286024227
+s44256
+
+N/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv7/HelloArrow
+t1286024228
+s34524
+
+N/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv7/HelloArrow.LinkFileList
+c000000004CA72C220000000000000288
+t1286024226
+s648
+
+N/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv7/HelloArrowAppDelegate.o
+t1286024227
+s46268
+
+N/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv7/RenderingEngine1.o
+t1286024228
+s14760
+
+N/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv7/RenderingEngine2.o
+t1286024228
+s84912
+
+N/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv7/main.o
+t1286018817
+s6684
+
+N/Users/kvannotten/Projects/HelloArrow/main.m
+c000000004CA6E0E70000000000000185
+t1286004967
+s389
+i<UIKit/UIKit.h>
+
+N/var/folders/At/Atn+cvS+F2WcJiHCIDyF7U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloArrow_Prefix-aadknwkjbgcqkycsqzatiwgfnoti/HelloArrow_Prefix.pch.gch
+t1286018816
+s10294832
+
+N/var/folders/At/Atn+cvS+F2WcJiHCIDyF7U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloArrow_Prefix-aoioccozppyhschlghzbuavbmhki/HelloArrow_Prefix.pch.gch
+t1286018815
+s10433984
+
+N/var/folders/At/Atn+cvS+F2WcJiHCIDyF7U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloArrow_Prefix-avsavodbygmesvhbcczwhlzsmmep/HelloArrow_Prefix.pch.gch
+t1286018815
+s9831984
+
+N/var/folders/At/Atn+cvS+F2WcJiHCIDyF7U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloArrow_Prefix-bjkrbboaciqglkaweqdgqqtkmimh/HelloArrow_Prefix.pch.gch
+t1286018816
+s1966308
+
+N/var/folders/At/Atn+cvS+F2WcJiHCIDyF7U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloArrow_Prefix-dhfhswgtudfyhwfifboxchbkwxnd/HelloArrow_Prefix.pch.gch
+t1286018815
+s1519844
+
+N/var/folders/At/Atn+cvS+F2WcJiHCIDyF7U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloArrow_Prefix-fsbgxlxjatuitweqjzclhpkdsdok/HelloArrow_Prefix.pch.gch
+t1286018816
+s10888640
+
+NHelloArrow-Info.plist
+c000000004CA709AC000000000000037D
+t1286015404
+s893
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies307717026#307717026#0(0"0(0#1#0"8625665504#0"0#
+
+CCodeSign /Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos/HelloArrow.app
+s307717028.572255
+e307717028.871608
+r1
+xCodeSign
+x/Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos/HelloArrow.app
+lSLF07#2@44"CodeSign build/Debug-iphoneos/HelloArrow.app307717028#307717028#0(0"0(0#0#73"/Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos/HelloArrow.app8618547456#664"    cd /Users/kvannotten/Projects/HelloArrow    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Kristof Vannotten (ZSMEQDVYX9)" --resource-rules=/Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos/HelloArrow.app/ResourceRules.plist --entitlements /Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow.xcent /Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos/HelloArrow.app0#
+
+CCompileC build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv6/GLView.o /Users/kvannotten/Projects/HelloArrow/Classes/GLView.mm normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+s307717026.569239
+e307717027.080929
+r1
+xCompileC
+xbuild/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv6/GLView.o
+x/Users/kvannotten/Projects/HelloArrow/Classes/GLView.mm
+xnormal
+xarmv6
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/kvannotten/Projects/HelloArrow/Classes/GLView.mm307717026#307717027#0(0"0(0#0#55"/Users/kvannotten/Projects/HelloArrow/Classes/GLView.mm8620911520#1807"    cd /Users/kvannotten/Projects/HelloArrow    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-generated-files.hmap -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-own-target-headers.hmap -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-all-target-headers.hmap -iquote /Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-project-headers.hmap -F/Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos -I/Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos/include -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/DerivedSources/armv6 -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/DerivedSources -include /var/folders/At/Atn+cvS+F2WcJiHCIDyF7U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloArrow_Prefix-aoioccozppyhschlghzbuavbmhki/HelloArrow_Prefix.pch -c /Users/kvannotten/Projects/HelloArrow/Classes/GLView.mm -o /Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv6/GLView.o0#
+
+CCompileC build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv6/HelloArrowAppDelegate.o /Users/kvannotten/Projects/HelloArrow/Classes/HelloArrowAppDelegate.mm normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+s307717026.568484
+e307717027.079454
+r1
+xCompileC
+xbuild/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv6/HelloArrowAppDelegate.o
+x/Users/kvannotten/Projects/HelloArrow/Classes/HelloArrowAppDelegate.mm
+xnormal
+xarmv6
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/kvannotten/Projects/HelloArrow/Classes/HelloArrowAppDelegate.mm307717026#307717027#0(0"0(0#0#70"/Users/kvannotten/Projects/HelloArrow/Classes/HelloArrowAppDelegate.mm8621132256#1837"    cd /Users/kvannotten/Projects/HelloArrow    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-generated-files.hmap -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-own-target-headers.hmap -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-all-target-headers.hmap -iquote /Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-project-headers.hmap -F/Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos -I/Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos/include -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/DerivedSources/armv6 -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/DerivedSources -include /var/folders/At/Atn+cvS+F2WcJiHCIDyF7U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloArrow_Prefix-aoioccozppyhschlghzbuavbmhki/HelloArrow_Prefix.pch -c /Users/kvannotten/Projects/HelloArrow/Classes/HelloArrowAppDelegate.mm -o /Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv6/HelloArrowAppDelegate.o0#
+
+CCompileC build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv6/RenderingEngine1.o /Users/kvannotten/Projects/HelloArrow/Classes/RenderingEngine1.cpp normal armv6 c++ com.apple.compilers.gcc.4_2
+s307717027.079542
+e307717027.130408
+r1
+xCompileC
+xbuild/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv6/RenderingEngine1.o
+x/Users/kvannotten/Projects/HelloArrow/Classes/RenderingEngine1.cpp
+xnormal
+xarmv6
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/kvannotten/Projects/HelloArrow/Classes/RenderingEngine1.cpp307717027#307717027#0(0"0(0#0#66"/Users/kvannotten/Projects/HelloArrow/Classes/RenderingEngine1.cpp8618324480#1818"    cd /Users/kvannotten/Projects/HelloArrow    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-generated-files.hmap -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-own-target-headers.hmap -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-all-target-headers.hmap -iquote /Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-project-headers.hmap -F/Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos -I/Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos/include -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/DerivedSources/armv6 -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/DerivedSources -include /var/folders/At/Atn+cvS+F2WcJiHCIDyF7U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloArrow_Prefix-dhfhswgtudfyhwfifboxchbkwxnd/HelloArrow_Prefix.pch -c /Users/kvannotten/Projects/HelloArrow/Classes/RenderingEngine1.cpp -o /Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv6/RenderingEngine1.o0#
+
+CCompileC build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv6/RenderingEngine2.o /Users/kvannotten/Projects/HelloArrow/Classes/RenderingEngine2.cpp normal armv6 c++ com.apple.compilers.gcc.4_2
+s307717027.080989
+e307717027.484294
+r1
+xCompileC
+xbuild/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv6/RenderingEngine2.o
+x/Users/kvannotten/Projects/HelloArrow/Classes/RenderingEngine2.cpp
+xnormal
+xarmv6
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/kvannotten/Projects/HelloArrow/Classes/RenderingEngine2.cpp307717027#307717027#0(0"0(0#0#66"/Users/kvannotten/Projects/HelloArrow/Classes/RenderingEngine2.cpp8617497376#1818"    cd /Users/kvannotten/Projects/HelloArrow    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-generated-files.hmap -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-own-target-headers.hmap -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-all-target-headers.hmap -iquote /Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-project-headers.hmap -F/Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos -I/Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos/include -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/DerivedSources/armv6 -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/DerivedSources -include /var/folders/At/Atn+cvS+F2WcJiHCIDyF7U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloArrow_Prefix-dhfhswgtudfyhwfifboxchbkwxnd/HelloArrow_Prefix.pch -c /Users/kvannotten/Projects/HelloArrow/Classes/RenderingEngine2.cpp -o /Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv6/RenderingEngine2.o0#
+
+CCompileC build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv6/main.o /Users/kvannotten/Projects/HelloArrow/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s307711616.619779
+e307711616.887509
+r1
+xCompileC
+xbuild/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv6/main.o
+x/Users/kvannotten/Projects/HelloArrow/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Users/kvannotten/Projects/HelloArrow/main.m307711616#307711616#0(0"0(0#0#44"/Users/kvannotten/Projects/HelloArrow/main.m8604122400#1773"    cd /Users/kvannotten/Projects/HelloArrow    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-generated-files.hmap -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-own-target-headers.hmap -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-all-target-headers.hmap -iquote /Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-project-headers.hmap -F/Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos -I/Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos/include -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/DerivedSources/armv6 -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/DerivedSources -include /var/folders/At/Atn+cvS+F2WcJiHCIDyF7U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloArrow_Prefix-avsavodbygmesvhbcczwhlzsmmep/HelloArrow_Prefix.pch -c /Users/kvannotten/Projects/HelloArrow/main.m -o /Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv7/GLView.o /Users/kvannotten/Projects/HelloArrow/Classes/GLView.mm normal armv7 objective-c++ com.apple.compilers.gcc.4_2
+s307717027.898217
+e307717027.996491
+r1
+xCompileC
+xbuild/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv7/GLView.o
+x/Users/kvannotten/Projects/HelloArrow/Classes/GLView.mm
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/kvannotten/Projects/HelloArrow/Classes/GLView.mm307717027#307717027#0(0"0(0#0#55"/Users/kvannotten/Projects/HelloArrow/Classes/GLView.mm8620945120#1807"    cd /Users/kvannotten/Projects/HelloArrow    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-generated-files.hmap -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-own-target-headers.hmap -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-all-target-headers.hmap -iquote /Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-project-headers.hmap -F/Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos -I/Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos/include -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/DerivedSources/armv7 -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/DerivedSources -include /var/folders/At/Atn+cvS+F2WcJiHCIDyF7U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloArrow_Prefix-fsbgxlxjatuitweqjzclhpkdsdok/HelloArrow_Prefix.pch -c /Users/kvannotten/Projects/HelloArrow/Classes/GLView.mm -o /Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv7/GLView.o0#
+
+CCompileC build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv7/HelloArrowAppDelegate.o /Users/kvannotten/Projects/HelloArrow/Classes/HelloArrowAppDelegate.mm normal armv7 objective-c++ com.apple.compilers.gcc.4_2
+s307717027.130586
+e307717027.898113
+r1
+xCompileC
+xbuild/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv7/HelloArrowAppDelegate.o
+x/Users/kvannotten/Projects/HelloArrow/Classes/HelloArrowAppDelegate.mm
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/kvannotten/Projects/HelloArrow/Classes/HelloArrowAppDelegate.mm307717027#307717027#0(0"0(0#0#70"/Users/kvannotten/Projects/HelloArrow/Classes/HelloArrowAppDelegate.mm8606696992#1837"    cd /Users/kvannotten/Projects/HelloArrow    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-generated-files.hmap -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-own-target-headers.hmap -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-all-target-headers.hmap -iquote /Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-project-headers.hmap -F/Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos -I/Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos/include -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/DerivedSources/armv7 -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/DerivedSources -include /var/folders/At/Atn+cvS+F2WcJiHCIDyF7U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloArrow_Prefix-fsbgxlxjatuitweqjzclhpkdsdok/HelloArrow_Prefix.pch -c /Users/kvannotten/Projects/HelloArrow/Classes/HelloArrowAppDelegate.mm -o /Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv7/HelloArrowAppDelegate.o0#
+
+CCompileC build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv7/RenderingEngine1.o /Users/kvannotten/Projects/HelloArrow/Classes/RenderingEngine1.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
+s307717027.903070
+e307717028.033290
+r1
+xCompileC
+xbuild/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv7/RenderingEngine1.o
+x/Users/kvannotten/Projects/HelloArrow/Classes/RenderingEngine1.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/kvannotten/Projects/HelloArrow/Classes/RenderingEngine1.cpp307717027#307717028#0(0"0(0#0#66"/Users/kvannotten/Projects/HelloArrow/Classes/RenderingEngine1.cpp8620619968#1818"    cd /Users/kvannotten/Projects/HelloArrow    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-generated-files.hmap -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-own-target-headers.hmap -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-all-target-headers.hmap -iquote /Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-project-headers.hmap -F/Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos -I/Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos/include -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/DerivedSources/armv7 -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/DerivedSources -include /var/folders/At/Atn+cvS+F2WcJiHCIDyF7U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloArrow_Prefix-bjkrbboaciqglkaweqdgqqtkmimh/HelloArrow_Prefix.pch -c /Users/kvannotten/Projects/HelloArrow/Classes/RenderingEngine1.cpp -o /Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv7/RenderingEngine1.o0#
+
+CCompileC build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv7/RenderingEngine2.o /Users/kvannotten/Projects/HelloArrow/Classes/RenderingEngine2.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
+s307717027.996584
+e307717028.325678
+r1
+xCompileC
+xbuild/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv7/RenderingEngine2.o
+x/Users/kvannotten/Projects/HelloArrow/Classes/RenderingEngine2.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/kvannotten/Projects/HelloArrow/Classes/RenderingEngine2.cpp307717027#307717028#0(0"0(0#0#66"/Users/kvannotten/Projects/HelloArrow/Classes/RenderingEngine2.cpp8619624256#1818"    cd /Users/kvannotten/Projects/HelloArrow    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-generated-files.hmap -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-own-target-headers.hmap -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-all-target-headers.hmap -iquote /Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-project-headers.hmap -F/Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos -I/Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos/include -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/DerivedSources/armv7 -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/DerivedSources -include /var/folders/At/Atn+cvS+F2WcJiHCIDyF7U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloArrow_Prefix-bjkrbboaciqglkaweqdgqqtkmimh/HelloArrow_Prefix.pch -c /Users/kvannotten/Projects/HelloArrow/Classes/RenderingEngine2.cpp -o /Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv7/RenderingEngine2.o0#
+
+CCompileC build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv7/main.o /Users/kvannotten/Projects/HelloArrow/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s307711616.999501
+e307711617.049234
+r1
+xCompileC
+xbuild/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv7/main.o
+x/Users/kvannotten/Projects/HelloArrow/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Users/kvannotten/Projects/HelloArrow/main.m307711616#307711617#0(0"0(0#0#44"/Users/kvannotten/Projects/HelloArrow/main.m8606790880#1773"    cd /Users/kvannotten/Projects/HelloArrow    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-generated-files.hmap -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-own-target-headers.hmap -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-all-target-headers.hmap -iquote /Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-project-headers.hmap -F/Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos -I/Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos/include -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/DerivedSources/armv7 -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/DerivedSources -include /var/folders/At/Atn+cvS+F2WcJiHCIDyF7U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloArrow_Prefix-aadknwkjbgcqkycsqzatiwgfnoti/HelloArrow_Prefix.pch -c /Users/kvannotten/Projects/HelloArrow/main.m -o /Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv7/main.o0#
+
+CCpResource build/Debug-iphoneos/HelloArrow.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
+s307711613.133967
+e307711613.211996
+r1
+xCpResource
+xbuild/Debug-iphoneos/HelloArrow.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist307711613#307711613#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist5423551314508738560#481"    cd /Users/kvannotten/Projects/HelloArrow    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist /Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos/HelloArrow.app0#
+
+CCreateUniversalBinary /Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos/HelloArrow.app/HelloArrow normal "armv6 armv7"
+s307717028.481378
+e307717028.509400
+r1
+xCreateUniversalBinary
+x/Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos/HelloArrow.app/HelloArrow
+xnormal
+xarmv6 armv7
+lSLF07#2@89"CreateUniversalBinary build/Debug-iphoneos/HelloArrow.app/HelloArrow normal "armv6 armv7"307717028#307717028#0(0"0(0#0#49"/Users/kvannotten/Projects/HelloArrow/armv6 armv78626697280#538"    cd /Users/kvannotten/Projects/HelloArrow    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv6/HelloArrow /Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv7/HelloArrow -output /Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos/HelloArrow.app/HelloArrow0#
+
+CGenerateDSYMFile /Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos/HelloArrow.app.dSYM /Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos/HelloArrow.app/HelloArrow
+s307717028.509482
+e307717028.569158
+r1
+xGenerateDSYMFile
+x/Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos/HelloArrow.app.dSYM
+x/Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos/HelloArrow.app/HelloArrow
+lSLF07#2@104"GenerateDSYMFile build/Debug-iphoneos/HelloArrow.app.dSYM build/Debug-iphoneos/HelloArrow.app/HelloArrow307717028#307717028#0(0"0(0#0#84"/Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos/HelloArrow.app/HelloArrow8625053376#368"    cd /Users/kvannotten/Projects/HelloArrow    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos/HelloArrow.app/HelloArrow -o /Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos/HelloArrow.app.dSYM0#
+
+CLd /Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv6/HelloArrow normal armv6
+s307717027.484371
+e307717027.902989
+r1
+xLd
+x/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv6/HelloArrow
+xnormal
+xarmv6
+lSLF07#2@129"Link /Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv6/HelloArrow307717027#307717027#0(0"0(0#0#0"8624893312#914"    cd /Users/kvannotten/Projects/HelloArrow    setenv IPHONEOS_DEPLOYMENT_TARGET 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/g++-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -L/Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos -F/Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos -filelist /Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv6/HelloArrow.LinkFileList -dead_strip -miphoneos-version-min=4.1 -framework Foundation -framework UIKit -framework CoreGraphics -framework OpenGLES -framework QuartzCore -o /Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv6/HelloArrow0#
+
+CLd /Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv7/HelloArrow normal armv7
+s307717028.325895
+e307717028.481295
+r1
+xLd
+x/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv7/HelloArrow
+xnormal
+xarmv7
+lSLF07#2@129"Link /Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv7/HelloArrow307717028#307717028#0(0"0(0#0#0"8626496288#914"    cd /Users/kvannotten/Projects/HelloArrow    setenv IPHONEOS_DEPLOYMENT_TARGET 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/g++-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -L/Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos -F/Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos -filelist /Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv7/HelloArrow.LinkFileList -dead_strip -miphoneos-version-min=4.1 -framework Foundation -framework UIKit -framework CoreGraphics -framework OpenGLES -framework QuartzCore -o /Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/Objects-normal/armv7/HelloArrow0#
+
+CProcessInfoPlistFile /Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos/HelloArrow.app/Info.plist HelloArrow-Info.plist
+s307711613.177372
+e307711613.195360
+r1
+xProcessInfoPlistFile
+x/Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos/HelloArrow.app/Info.plist
+xHelloArrow-Info.plist
+lSLF07#2@29"Process HelloArrow-Info.plist307711613#307711613#0(0"0(0#0#59"/Users/kvannotten/Projects/HelloArrow/HelloArrow-Info.plist8609037504#570"    cd /Users/kvannotten/Projects/HelloArrow    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility HelloArrow-Info.plist -genpkginfo /Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos/HelloArrow.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos/HelloArrow.app/ResourceRules.plist -o /Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos/HelloArrow.app/Info.plist0#
+
+CProcessPCH /var/folders/At/Atn+cvS+F2WcJiHCIDyF7U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloArrow_Prefix-aadknwkjbgcqkycsqzatiwgfnoti/HelloArrow_Prefix.pch.gch HelloArrow_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s307711615.824036
+e307711616.326682
+r1
+xProcessPCH
+x/var/folders/At/Atn+cvS+F2WcJiHCIDyF7U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloArrow_Prefix-aadknwkjbgcqkycsqzatiwgfnoti/HelloArrow_Prefix.pch.gch
+xHelloArrow_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile HelloArrow_Prefix.pch307711615#307711616#0(0"0(0#0#59"/Users/kvannotten/Projects/HelloArrow/HelloArrow_Prefix.pch8609039328#1669"    cd /Users/kvannotten/Projects/HelloArrow    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-generated-files.hmap -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-own-target-headers.hmap -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-all-target-headers.hmap -iquote /Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-project-headers.hmap -F/Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos -I/Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos/include -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/DerivedSources/armv7 -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/DerivedSources -c /Users/kvannotten/Projects/HelloArrow/HelloArrow_Prefix.pch -o /var/folders/At/Atn+cvS+F2WcJiHCIDyF7U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloArrow_Prefix-aadknwkjbgcqkycsqzatiwgfnoti/HelloArrow_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/At/Atn+cvS+F2WcJiHCIDyF7U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloArrow_Prefix-avsavodbygmesvhbcczwhlzsmmep/HelloArrow_Prefix.pch.gch HelloArrow_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s307711613.212201
+e307711615.823941
+r1
+xProcessPCH
+x/var/folders/At/Atn+cvS+F2WcJiHCIDyF7U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloArrow_Prefix-avsavodbygmesvhbcczwhlzsmmep/HelloArrow_Prefix.pch.gch
+xHelloArrow_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile HelloArrow_Prefix.pch307711613#307711615#0(0"0(0#0#59"/Users/kvannotten/Projects/HelloArrow/HelloArrow_Prefix.pch8607446912#1669"    cd /Users/kvannotten/Projects/HelloArrow    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-generated-files.hmap -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-own-target-headers.hmap -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-all-target-headers.hmap -iquote /Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-project-headers.hmap -F/Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos -I/Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos/include -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/DerivedSources/armv6 -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/DerivedSources -c /Users/kvannotten/Projects/HelloArrow/HelloArrow_Prefix.pch -o /var/folders/At/Atn+cvS+F2WcJiHCIDyF7U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloArrow_Prefix-avsavodbygmesvhbcczwhlzsmmep/HelloArrow_Prefix.pch.gch0#
+
+CProcessPCH++ /var/folders/At/Atn+cvS+F2WcJiHCIDyF7U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloArrow_Prefix-aoioccozppyhschlghzbuavbmhki/HelloArrow_Prefix.pch.gch HelloArrow_Prefix.pch normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+s307711613.213621
+e307711615.804887
+r1
+xProcessPCH++
+x/var/folders/At/Atn+cvS+F2WcJiHCIDyF7U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloArrow_Prefix-aoioccozppyhschlghzbuavbmhki/HelloArrow_Prefix.pch.gch
+xHelloArrow_Prefix.pch
+xnormal
+xarmv6
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile HelloArrow_Prefix.pch307711613#307711615#0(0"0(0#0#59"/Users/kvannotten/Projects/HelloArrow/HelloArrow_Prefix.pch8607192384#1690"    cd /Users/kvannotten/Projects/HelloArrow    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++-header -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-generated-files.hmap -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-own-target-headers.hmap -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-all-target-headers.hmap -iquote /Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-project-headers.hmap -F/Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos -I/Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos/include -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/DerivedSources/armv6 -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/DerivedSources -c /Users/kvannotten/Projects/HelloArrow/HelloArrow_Prefix.pch -o /var/folders/At/Atn+cvS+F2WcJiHCIDyF7U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloArrow_Prefix-aoioccozppyhschlghzbuavbmhki/HelloArrow_Prefix.pch.gch0#
+
+CProcessPCH++ /var/folders/At/Atn+cvS+F2WcJiHCIDyF7U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloArrow_Prefix-bjkrbboaciqglkaweqdgqqtkmimh/HelloArrow_Prefix.pch.gch HelloArrow_Prefix.pch normal armv7 c++ com.apple.compilers.gcc.4_2
+s307711616.326776
+e307711616.396227
+r1
+xProcessPCH++
+x/var/folders/At/Atn+cvS+F2WcJiHCIDyF7U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloArrow_Prefix-bjkrbboaciqglkaweqdgqqtkmimh/HelloArrow_Prefix.pch.gch
+xHelloArrow_Prefix.pch
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile HelloArrow_Prefix.pch307711616#307711616#0(0"0(0#0#59"/Users/kvannotten/Projects/HelloArrow/HelloArrow_Prefix.pch8606822880#1680"    cd /Users/kvannotten/Projects/HelloArrow    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++-header -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-generated-files.hmap -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-own-target-headers.hmap -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-all-target-headers.hmap -iquote /Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-project-headers.hmap -F/Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos -I/Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos/include -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/DerivedSources/armv7 -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/DerivedSources -c /Users/kvannotten/Projects/HelloArrow/HelloArrow_Prefix.pch -o /var/folders/At/Atn+cvS+F2WcJiHCIDyF7U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloArrow_Prefix-bjkrbboaciqglkaweqdgqqtkmimh/HelloArrow_Prefix.pch.gch0#
+
+CProcessPCH++ /var/folders/At/Atn+cvS+F2WcJiHCIDyF7U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloArrow_Prefix-dhfhswgtudfyhwfifboxchbkwxnd/HelloArrow_Prefix.pch.gch HelloArrow_Prefix.pch normal armv6 c++ com.apple.compilers.gcc.4_2
+s307711615.805022
+e307711615.954611
+r1
+xProcessPCH++
+x/var/folders/At/Atn+cvS+F2WcJiHCIDyF7U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloArrow_Prefix-dhfhswgtudfyhwfifboxchbkwxnd/HelloArrow_Prefix.pch.gch
+xHelloArrow_Prefix.pch
+xnormal
+xarmv6
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile HelloArrow_Prefix.pch307711615#307711615#0(0"0(0#0#59"/Users/kvannotten/Projects/HelloArrow/HelloArrow_Prefix.pch8606815328#1680"    cd /Users/kvannotten/Projects/HelloArrow    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++-header -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-generated-files.hmap -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-own-target-headers.hmap -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-all-target-headers.hmap -iquote /Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-project-headers.hmap -F/Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos -I/Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos/include -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/DerivedSources/armv6 -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/DerivedSources -c /Users/kvannotten/Projects/HelloArrow/HelloArrow_Prefix.pch -o /var/folders/At/Atn+cvS+F2WcJiHCIDyF7U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloArrow_Prefix-dhfhswgtudfyhwfifboxchbkwxnd/HelloArrow_Prefix.pch.gch0#
+
+CProcessPCH++ /var/folders/At/Atn+cvS+F2WcJiHCIDyF7U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloArrow_Prefix-fsbgxlxjatuitweqjzclhpkdsdok/HelloArrow_Prefix.pch.gch HelloArrow_Prefix.pch normal armv7 objective-c++ com.apple.compilers.gcc.4_2
+s307711615.954704
+e307711616.619695
+r1
+xProcessPCH++
+x/var/folders/At/Atn+cvS+F2WcJiHCIDyF7U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloArrow_Prefix-fsbgxlxjatuitweqjzclhpkdsdok/HelloArrow_Prefix.pch.gch
+xHelloArrow_Prefix.pch
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile HelloArrow_Prefix.pch307711615#307711616#0(0"0(0#0#59"/Users/kvannotten/Projects/HelloArrow/HelloArrow_Prefix.pch8607119904#1690"    cd /Users/kvannotten/Projects/HelloArrow    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++-header -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-generated-files.hmap -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-own-target-headers.hmap -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-all-target-headers.hmap -iquote /Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow-project-headers.hmap -F/Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos -I/Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos/include -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/DerivedSources/armv7 -I/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/DerivedSources -c /Users/kvannotten/Projects/HelloArrow/HelloArrow_Prefix.pch -o /var/folders/At/Atn+cvS+F2WcJiHCIDyF7U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloArrow_Prefix-fsbgxlxjatuitweqjzclhpkdsdok/HelloArrow_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/kvannotten/Library/MobileDevice/Provisioning Profiles/77458E26-1C6F-40BA-B448-E1F0285CD3A8.mobileprovision" /Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos/HelloArrow.app/embedded.mobileprovision
+s307711617.844183
+e307711617.865315
+r1
+xProcessProductPackaging
+x/Users/kvannotten/Library/MobileDevice/Provisioning Profiles/77458E26-1C6F-40BA-B448-E1F0285CD3A8.mobileprovision
+x/Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos/HelloArrow.app/embedded.mobileprovision
+lSLF07#2@200"ProcessProductPackaging "/Users/kvannotten/Library/MobileDevice/Provisioning Profiles/77458E26-1C6F-40BA-B448-E1F0285CD3A8.mobileprovision" build/Debug-iphoneos/HelloArrow.app/embedded.mobileprovision307711617#307711617#0(0"0(0#0#98"/Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos/HelloArrow.app/embedded.mobileprovision8599513376#429"    cd /Users/kvannotten/Projects/HelloArrow    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/kvannotten/Library/MobileDevice/Provisioning Profiles/77458E26-1C6F-40BA-B448-E1F0285CD3A8.mobileprovision" -o /Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos/HelloArrow.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist /Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow.xcent
+s307711617.867689
+e307711617.882749
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist
+x/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow.xcent
+lSLF07#2@184"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow.xcent307711617#307711617#0(0"0(0#0#109"/Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow.xcent8603692832#439"    cd /Users/kvannotten/Projects/HelloArrow    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/kvannotten/Projects/HelloArrow/build/HelloArrow.build/Debug-iphoneos/HelloArrow.build/HelloArrow.xcent0#
+
+CTouch /Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos/HelloArrow.app
+s307717028.569440
+e307717028.572099
+r1
+xTouch
+x/Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos/HelloArrow.app
+lSLF07#2@79"Touch /Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos/HelloArrow.app307717028#307717028#0(0"0(0#0#0"8619662464#265"    cd /Users/kvannotten/Projects/HelloArrow    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/kvannotten/Projects/HelloArrow/build/Debug-iphoneos/HelloArrow.app0#
+
